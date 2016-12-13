@@ -15,10 +15,35 @@
     <h1 role="heading" aria-level="1">
         5a. Cases à cocher («&nbsp;checkbox&nbsp;»)
     </h1>
-    <p>
-    	NB. Ici, l’attribut for sur le label est encore plus important&nbsp;!
-    </p>
-    <!-- INPUT de type checkbox -->
-
+    <!-- NB. Ici, l’attribut for sur le label est encre plus important ! -->
+	<form	id="form5a"
+			action="#" 
+			method="get">
+		<div>
+			<input	type="checkbox"
+					id="condgen" 
+					name="condgen" 
+					value="oui"
+					title="Vous marquez votre accord avec les conditions générales">
+			<label	for="condgen"
+					title="Vous marquez votre accord avec les conditions générales">
+				J’accepte les conditions générales du service
+			</label>
+		</div>
+		<div>
+			<input	type="checkbox" 
+					id="spam" 
+					name="spam" 
+					value="1"
+					title="Vous marquez votre accord pour que la société communique vos coordonnées à des tiers">
+			<label	for="spam"
+					title="Vous marquez votre accord pour que la société communique vos coordonnées à des tiers">
+				J’autorise l’utilisation de mes coordonnées par la société
+			</label>
+		</div>
+		<div>
+			<input	type="submit" value="Communiquez votre choix">
+		</div>
+	</form><!-- #form5a -->
   </body>
 </html>

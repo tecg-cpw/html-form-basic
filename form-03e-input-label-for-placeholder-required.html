@@ -22,8 +22,26 @@
       <p>
         On peut envoyer le formulaire sans compléter le champ, il n’y aura pas de mesage d’erreur.
       </p>
-      <!-- CHAMP TEXTE - sans attribut required -->  
-      
+          <!-- LABEL POUR CHAMP TEXTE - avec attribut for -->  
+      <form   id="form3e1"
+              action="#" 
+              method="get">
+        <div>
+          <label  title="Veuillez saisir votre prénom"
+                  for="prenom">
+              Prénom : 
+          </label>
+          <input  type="text"
+                  id="prenom" 
+                  name="prenom" 
+                  value=""
+                  placeholder="Myriam"
+                  title="Veuillez saisir votre prénom">
+        </div>
+        <div>
+          <input  type="submit" value="Envoyez votre prénom">
+        </div>
+      </form><!-- #form3e1 -->
     </section>
     <section>
       <h2 role="heading" aria-level="2">
@@ -32,8 +50,27 @@
       <p>
         L’attribut <code>required</code> permet de rendre obligatoire le remplissage d’un champ et bloquer la validation du formulaire si le champ n’a pas été renseigné&nbsp;: un message d’erreur apparaît.
       </p>
-      <!-- CHAMP TEXTE - avec attribut required -->  
-      
+        <!-- LABEL POUR CHAMP TEXTE - avec attribut for -->  
+      <form   id="form3e2"
+              action="#" 
+              method="get">
+        <div>
+          <label  title="Veuillez saisir votre prénom"
+                  for="prenom">
+              Prénom : 
+          </label>
+          <input  type="text"
+                  id="prenom" 
+                  name="prenom" 
+                  value=""
+                  placeholder="Myriam"
+                  title="Veuillez saisir votre prénom"
+                  required>
+        </div>
+        <div>
+          <input  type="submit" value="Envoyez votre prénom">
+        </div>
+      </form><!-- #form3e2 -->
     </section>
   </body>
 </html>

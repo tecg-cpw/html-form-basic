@@ -15,6 +15,37 @@
     <h1 role="heading" aria-level="1">
         5b. Cases à cocher&nbsp;— une case précochée (attribut <code>checked</code>)
     </h1>   
-
+	<form	id="form5b"
+			action="#"
+			method="get">
+		<div>
+			<input	type="checkbox"
+					id="condgen" 
+					name="condgen" 
+					value="1"
+					title="Vous marquez votre accord avec les conditions générales">
+			<label	for="condgen"
+					title="Vous marquez votre accord avec les conditions générales">
+				J’accpete les conditions générales du service
+			</label>
+		</div>
+		<div>
+			<input	type="checkbox" 
+					id="spam" 
+					name="spam" 
+					value="1"
+					title=	"Vous marquez votre accord pour que la société
+							communique vos coordonnées à des tiers"
+					checked> <!-- checked -->
+			<label	for="spam"
+					title=	"Vous marquez votre accord pour que la société
+							communique vos coordonnées à des tiers">
+				J’autorise l’utilisation de mes coordonnées par la société
+			</label>
+		</div>
+		<div>
+			<input	type="submit" value="Communiquez votre choix">
+		</div>
+	</form><!-- #form5b -->
   </body>
 </html>

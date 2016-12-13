@@ -19,7 +19,40 @@
       <code>&lt;datalist&gt;</code> permet de lier une liste de choix à un élément input. <br>
       Il fournit des fonctionnalités d’auto-complétion ou d’auto-suggestion, dans un formulaire classique ou un champ de recherche, voire à d’autres éléments d’entrée, tels que les nouveaux input de type range.
     </p>
-    <!-- CHAMP TEXTE - avec datalist -->  
-    
+    <!-- LABEL POUR CHAMP TEXTE - avec attribut for -->  
+    <form   id="form3f"
+            action="#" 
+            method="get">
+      <div>
+        <label  for="etud">
+            Rechercher un étudiant 
+        </label>
+        <input  type="search"
+                id="etud" 
+                name="etud" 
+                list="etudiants"
+                placeholder="Jon Snow"
+                title="Entrez le nom de l’étudiant que vous recherchez">
+        <datalist id="etudiants">
+          <option value="Malaise Maxime"></option>
+          <option value="Lousberg Nathan"></option>
+          <option value="Guillaume Grillo"></option>
+          <option value="Christine Jendrzejczyk"></option>
+          <option value="Laurie Lecocq"></option>
+          <option value="Gaëtan Lopez-Luque"></option>
+          <option value="Manon Marneffe"></option>
+          <option value="Titouan Mélon"></option>
+          <option value="Jérémy Mottard"></option>
+          <option value="Lucas Pajares Barroso"></option>
+          <option value="Florent Parinello"></option>
+          <option value="Képhren Simonis"></option>
+          <option value="Gwenaël Vanzandberghe"></option>
+          <option value="Pauline Viroux"></option>
+        </datalist>
+      </div>
+      <div>
+        <input  type="submit" value="Rechercher">
+      </div>
+    </form><!-- #form3f -->
   </body>
 </html>
