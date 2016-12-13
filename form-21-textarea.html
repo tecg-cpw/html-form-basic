@@ -14,6 +14,43 @@
     <h1 role="heading" aria-level="1">
         21. Zone de texte longue ("textarea")
     </h1>   
-	
+	<form	id="form21a"
+			action="#"
+			method="get">
+        <h2>Attention au formatage !</h2>
+		<div>
+			<label for="commentaire1"></label>
+			<textarea	id="commentaire1"
+						name="commentaire"
+						cols="55"
+						rows="6">
+                    Le contenu de la balise textarea est ce qui sera affiché par défaut;
+                                le formatage est similaire   à celui
+                        d'un élément pre
+			</textarea> <!-- attributs cols et rows obligatoires pour définir les dimensions de la zone --> 
+	   </div>
+		<div>
+			<input	type="submit" value="Postez votre commentaire">
+		</div>
+	</form><!-- #form21a -->
+	<form	id="form21b"
+			action="#"
+			method="get">
+        <h2>On n'indente pas le contenu d'un textarea...</h2>
+		<div>
+			<label	for="commentaire"
+					title="Veuillez taper votre commentaire">
+				Commentaire :
+			</label>
+			<textarea	id="commentaire"
+						name="commentaire"
+						cols="40"
+						rows="3">Tapez ici votre commentaire
+            </textarea>
+		</div>
+		<div>
+			<input	type="submit" value="Postez votre commentaire">
+		</div>
+	</form><!-- #form21b -->
   </body>
 </html>

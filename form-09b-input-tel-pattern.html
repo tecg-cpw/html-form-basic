@@ -15,6 +15,23 @@
     <h1 role="heading" aria-level="1">
         9. Numéro de téléphone avec vérification de pattern
     </h1>  
-    
+  	<form	id="form9b"
+    			action="#" 
+    			method="get">
+  		<div>
+  			<label for="phone">
+          Entrez votre numéro de téléphone :
+        </label>
+  			<input	type="tel"
+        				id="phone"
+        				name="phone" 
+        				placeholder="04 330 75 04"
+                pattern="\d+\s\d+\s\d+\s\d+" 
+        				title="Veuillez entrer votre numéro de téléphone"> <!-- au moins un chiffre suivi d'un espace suivi de au moins un chiffre etc. -->
+  		</div>
+  		<div>
+  			<input	type="submit" value="Envoyez votre numéro de téléphone">
+  		</div>
+  	</form><!-- #form9b -->
   </body>
 </html>
