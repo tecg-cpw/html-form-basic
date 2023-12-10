@@ -1,0 +1,75 @@
+@import url(https://fonts.bunny.net/css?family=inter:200,400,700|jetbrains-mono:200,400,700);
+
+body {
+  font-family: Inter, sans-serif;
+  max-width: 60rem;
+  margin: 2rem auto;
+}
+
+form {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+code {
+  font-family: "JetBrains Mono", monospace;
+  border-radius: 5px;
+  color: green;
+}
+
+label {
+  font-weight: 700;
+}
+
+::placeholder {
+  color: lightgray;
+}
+
+input,
+textarea {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.5em;
+  font-family: Inter, sans-serif;
+  outline: none;
+}
+
+select {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.5em;
+  font-family: Inter, sans-serif;
+  outline: none;
+}
+
+input[type="range"],
+input[type="color"] {
+  vertical-align: middle;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle;
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+  vertical-align: middle;
+}
+
+input[type="submit"],
+button {
+  border-radius: 5px;
+  background-color: blue;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #fff;
+  border: none;
+  padding: 0.5em;
+}
