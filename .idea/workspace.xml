@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="65b09bcd-dfa0-448f-95d1-9a09fe96ac77" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/form-01a-input-submit.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-01a-input-submit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-01b-button-submit.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-01b-button-submit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-02a-input-sans-label.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-02a-input-sans-label.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-02b-input-size-0-10-40.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-02b-input-size-0-10-40.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-02c-maxlength-0-25-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-02c-maxlength-0-25-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-02d-input-size-maxlength.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-02d-input-size-maxlength.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-03a-input-avec-label-sans-for.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-03a-input-avec-label-sans-for.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-03b-input-avec-label-avec-for-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-03b-input-avec-label-avec-for-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-03c-input-avec-label-avec-for-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-03c-input-avec-label-avec-for-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-03d-input-label-for-placeholder.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-03d-input-label-for-placeholder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-03e-input-label-for-placeholder-required.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-03e-input-label-for-placeholder-required.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-03f-input-datalist.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-03f-input-datalist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-04a-input-password-get.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-04a-input-password-get.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-04b-input-password-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-04b-input-password-post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-05a-input-checkbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-05a-input-checkbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-05b-input-checkbox-checked.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-05b-input-checkbox-checked.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-06a-input-radio.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-06a-input-radio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-06b-input-radio-checked.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-06b-input-radio-checked.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-07-input-file.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-07-input-file.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-08-input-hidden.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-08-input-hidden.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-09a-input-tel.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-09a-input-tel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-09b-input-tel-pattern.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-09b-input-tel-pattern.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-10-input-url.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-10-input-url.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-11-input-email.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-11-input-email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-12-input-search.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-12-input-search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-13-input-date.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-13-input-date.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-14-input-time.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-14-input-time.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-18a-input-number.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-18a-input-number.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-18b-input-number-min.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-18b-input-number-min.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-19-input-range.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-19-input-range.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-20-input-color.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-20-input-color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-21-textarea.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-21-textarea.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-21a-select.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-21a-select.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-21b-selected.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-21b-selected.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-21c-select-optgroup.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-21c-select-optgroup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form-22-fieldset.html" beforeDir="false" afterPath="$PROJECT_DIR$/form-22-fieldset.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="1qop36yq" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2ZLMEqANJCV8AUHKyEvcBk7KVCJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.laravel-idea.search-composer-json": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore_missing_gitignore": "true",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/opt/homebrew/lib/node_modules/prettier",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65b09bcd-dfa0-448f-95d1-9a09fe96ac77" name="Changes" comment="" />
+      <created>1702196799286</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702196799286</updated>
+      <workItem from="1702196800862" duration="4994000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

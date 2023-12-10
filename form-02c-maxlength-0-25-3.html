@@ -1,43 +1,45 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form2c
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form2c</title>
+    <meta name="author" content="Myriam Dupont" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/form.css"
+      media="screen"
+      title="Normal"
+    />
   </head>
   <body>
-    <h1 role="heading" aria-level="1">
-        2c. Champ de saisie texte et attribut maxlength
+    <h1>
+      2c. Champ de saisie texte et attribut <code lang="en">maxlength</code>
     </h1>
-	<!-- CHAMP TEXTE - sans attribut  maxlength -->
-	<form id="form2c1" action="#" method="get">
-		<h2 role="heading" aria-level="2">Sans attribut maxlength</h2>
-		<div>
-			<input	type="text"
-					name="nom" 
-					title="Veuillez saisir votre nom">
-		</div>
-		<div>
-			<input	type="submit" value="Envoyez votre nom">
-		</div>
-	</form><!-- #form2c1-->
-	<!-- CHAMP TEXTE - Attribut  maxlength à 25 -->
-	<form	id="form2c2" 
-			action="#" 
-			method="get">
-		<h2 role="heading" aria-level="2">Avec attribut maxlength="25"</h2>
-		
-	</form><!-- #form2c2 -->
-	<!-- CHAMP TEXTE - Attribut maxlength -->
-	<form id="form2c3" action="#" method="get">
-		<h2 role="heading" aria-level="2">Avec attribut maxlength="3"</h2>
-		
-	</form><!-- #form2c3 -->
+    <!-- CHAMP TEXTE - sans attribut  maxlength -->
+    <form id="form2c1" action="#" method="get">
+      <h2>Sans attribut <code lang="en">maxlength</code></h2>
+      <div>
+        <input type="text" name="name" title="Veuillez saisir votre nom" />
+      </div>
+      <div>
+        <input type="submit" value="Envoyez votre nom" />
+      </div>
+    </form>
+    <!-- #form2c1-->
+    <!-- CHAMP TEXTE - Attribut  maxlength à 25 -->
+    <form id="form2c2" action="#" method="get">
+      <h2>
+        Avec attribut <code><i lang="en">maxlength</i>="25"</code>
+      </h2>
+    </form>
+    <!-- #form2c2 -->
+    <!-- CHAMP TEXTE - Attribut maxlength -->
+    <form id="form2c3" action="#" method="get">
+      <h2>
+        Avec attribut <code><i lang="en">maxlength</i>="3"</code>
+      </h2>
+    </form>
+    <!-- #form2c3 -->
   </body>
 </html>

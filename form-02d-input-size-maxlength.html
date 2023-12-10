@@ -1,49 +1,64 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form2d
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form2d</title>
+    <meta name="author" content="Myriam Dupont" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/form.css"
+      media="screen"
+      title="Normal"
+    />
   </head>
   <body>
-    <h1 role="heading" aria-level="1">
-        2d. Champ de saisie texte -  attributs size et maxlength
+    <h1>
+      2d. Champ de saisie texte - attributs <code lang="en">size</code> et
+      <code lang="en">maxlength</code>
     </h1>
-	<!-- CHAMP TEXTE -->
-	<form id="form2d1" action="#" method="get">
-		<h2 role="heading" aria-level="2">Sans attribut size ni maxlength</h2>
-		<div>
-			<input	type="text"
-					name="nom" 
-                    value="entrez votre nom"
-					title="Veuillez saisir votre nom">
-		</div>
-		<div>
-			<input	type="submit" value="Envoyez votre nom">
-		</div>
-	</form><!-- #form2d1-->
-	<!-- CHAMP TEXTE - Attributs size et maxlength 1 -->
-	<form	id="form2d2"
-			action="#"
-			method="get">
-		<h2 role="heading" aria-level="2">Avec attributs size="5" et maxlength="8"</h2>
-		
-	</form><!-- #form2d2 -->
-	<!-- CHAMP TEXTE - Attributs size et maxlength 2 -->
-	<form id="form2d3" action="#" method="get">
-		<h2 role="heading" aria-level="2">Avec attributs size="15" et maxlength="3"</h2>
-		
-    </form><!-- #form2d3 -->
+    <!-- CHAMP TEXTE -->
+    <form id="form2d1" action="#" method="get">
+      <h2>
+        Sans attribut <code lang="en">size</code> ni
+        <code lang="en">maxlength</code>
+      </h2>
+      <div>
+        <input
+          type="text"
+          name="name"
+          value="entrez votre nom"
+          title="Veuillez saisir votre nom"
+        />
+      </div>
+      <div>
+        <input type="submit" value="Envoyez votre nom" />
+      </div>
+    </form>
+    <!-- #form2d1-->
+    <!-- CHAMP TEXTE - Attributs size et maxlength 1 -->
+    <form id="form2d2" action="#" method="get">
+      <h2>
+        Avec attributs <code><i lang="en">size</i>="5"</code> et
+        <code><i lang="en">maxlength="8"</i></code>
+      </h2>
+    </form>
+    <!-- #form2d2 -->
+    <!-- CHAMP TEXTE - Attributs size et maxlength 2 -->
+    <form id="form2d3" action="#" method="get">
+      <h2>
+        Avec attributs <code><i lang="en">size</i>="15"</code> et
+        <code><i lang="en">maxlength="3"</i></code>
+      </h2>
+    </form>
+    <!-- #form2d3 -->
     <!-- CHAMP TEXTE - Attributs size et maxlength 3 -->
     <form id="form2d4" action="#" method="get">
-        <h2 role="heading" aria-level="2">Avec attributs size="5" et maxlength="5"</h2>
-        
-	</form><!-- #form2d4 -->
+      <h2>
+        Avec attributs <code><i lang="en">size</i>="5"</code> et
+        <code><i lang="en">maxlength="5"</i></code>
+      </h2>
+    </form>
+    <!-- #form2d4 -->
   </body>
 </html>
