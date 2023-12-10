@@ -1,34 +1,34 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form00
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form00</title>
+    <meta content="Myriam Dupont" name="author" />
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
   </head>
   <body>
-    <h1 role="heading" aria-level="1">
-        PRINCIPE DE BASE DES FORMULAIRES
-    </h1>  
-	<form	action="#" method="post">
-		<div>
-			<label  title="Veuillez saisir votre prénom">
-				Prénom : 
-			</label>
-			<input	type="text"
-					id="prenom" 
-					name="prenom"
-          value=""
-					title="Veuillez saisir votre prénom">
-		</div>
-		<div>
-			<input	type="submit" value="Envoyez votre prénom">
-		</div>
-	</form>
+    <h1>PRINCIPE DE BASE DES FORMULAIRES</h1>
+    <form action="#" method="post">
+      <div>
+        <label for="firstname" title="Veuillez saisir votre prénom">
+          Prénom :
+        </label>
+        <input
+          id="firstname"
+          name="firstname"
+          title="Veuillez saisir votre prénom"
+          type="text"
+        />
+      </div>
+      <div>
+        <input type="submit" value="Envoyez votre prénom" />
+      </div>
+    </form>
   </body>
 </html>

@@ -1,51 +1,61 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form5b
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form5b</title>
+    <meta content="Myriam Dupont" name="author" />
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
   </head>
-  <body> 
-    <h1 role="heading" aria-level="1">
-        5b. Cases à cocher&nbsp;— une case précochée (attribut <code>checked</code>)
-    </h1>   
-	<form	id="form5b"
-			action="#"
-			method="get">
-		<div>
-			<input	type="checkbox"
-					id="condgen" 
-					name="condgen" 
-					value="1"
-					title="Vous marquez votre accord avec les conditions générales">
-			<label	for="condgen"
-					title="Vous marquez votre accord avec les conditions générales">
-				J’accpete les conditions générales du service
-			</label>
-		</div>
-		<div>
-			<input	type="checkbox" 
-					id="spam" 
-					name="spam" 
-					value="1"
-					title=	"Vous marquez votre accord pour que la société
+  <body>
+    <h1>
+      5b. Cases à cocher&nbsp;— une case précochée (attribut
+      <code>checked</code>)
+    </h1>
+    <form action="#" id="form5b" method="get">
+      <div>
+        <input
+          id="terms"
+          name="terms"
+          title="Vous marquez votre accord avec les conditions générales"
+          type="checkbox"
+          value="1"
+        />
+        <label
+          for="terms"
+          title="Vous marquez votre accord avec les conditions générales"
+        >
+          J’accpete les conditions générales du service
+        </label>
+      </div>
+      <div>
+        <input
+          checked
+          id="spam"
+          name="spam"
+          title="Vous marquez votre accord pour que la société
 							communique vos coordonnées à des tiers"
-					checked> <!-- checked -->
-			<label	for="spam"
-					title=	"Vous marquez votre accord pour que la société
-							communique vos coordonnées à des tiers">
-				J’autorise l’utilisation de mes coordonnées par la société
-			</label>
-		</div>
-		<div>
-			<input	type="submit" value="Communiquez votre choix">
-		</div>
-	</form><!-- #form5b -->
+          type="checkbox"
+          value="1"
+        />
+        <!-- checked -->
+        <label
+          for="spam"
+          title="Vous marquez votre accord pour que la société
+							communique vos coordonnées à des tiers"
+        >
+          J’autorise l’utilisation de mes coordonnées par la société
+        </label>
+      </div>
+      <div>
+        <input type="submit" value="Communiquez votre choix" />
+      </div>
+    </form>
+    <!-- #form5b -->
   </body>
 </html>

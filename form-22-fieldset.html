@@ -1,46 +1,54 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form22
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form22</title>
+    <meta content="Myriam Dupont" name="author" />
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
   </head>
-  <body> 
-    <h1 role="heading" aria-level="1">
-        22. Fieldset
-    </h1>   
-	<form id="form22" action="#" method="get">
-		<fieldset>
-			<legend>Adhérent</legend>
-			<div>
-				<label for="adhernom">Nom :</label>
-				<input type="text" id="adhernom" name="adhernom">
-			</div>
-			<div>
-				<label for="adherprenom">Prénom :</label>
-				<input type="text" id="adherprenom" name="adherprenom">
-			</div>
-		</fieldset>
-		<fieldset>
-			<legend>Conjoint(e)</legend>
-			<div>
-				<label for="conjnom">Nom :</label>
-				<input type="text" id="conjnom" name="conjnom">
-			</div>
-			<div>
-				<label for="conjprenom">Prénom :</label>
-				<input type="text" id="conjprenom" name="conjprenom">
-			</div>
-		</fieldset>
-		<div>
-			<input	type="submit" value="Inscrivez-vous">
-		</div>
-	</form><!-- #form22 -->
+  <body>
+    <h1>22. Fieldset</h1>
+    <form action="#" id="form22" method="get">
+      <fieldset>
+        <legend>Adhérent</legend>
+        <div>
+          <label for="subscriber-name">Nom :</label>
+          <input id="subscriber-name" name="subscriber-name" type="text" />
+        </div>
+        <div>
+          <label for="subscriber-first-name">Prénom :</label>
+          <input
+            id="subscriber-first-name"
+            name="subscriber-first-name"
+            type="text"
+          />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Conjoint(e)</legend>
+        <div>
+          <label for="partner-name">Nom :</label>
+          <input id="partner-name" name="partner-name" type="text" />
+        </div>
+        <div>
+          <label for="partner-first-name">Prénom :</label>
+          <input
+            id="partner-first-name"
+            name="partner-first-name"
+            type="text"
+          />
+        </div>
+      </fieldset>
+      <div>
+        <input type="submit" value="Inscrivez-vous" />
+      </div>
+    </form>
+    <!-- #form22 -->
   </body>
 </html>

@@ -1,37 +1,29 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form19
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form19</title>
+    <meta content="Myriam Dupont" name="author" />
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
   </head>
-  <body> 
-    <h1 role="heading" aria-level="1">
-        19. Intervalle
-    </h1>  
-  	<form	id="form19"
-    			action="#" 
-    			method="get">
-  		<div>
-  			<label for="volume">
-          Réglez le volume du son :
-        </label>
-  			<input	type="range"
-        				id="volume"
-        				name="volume" 
-        				min="0"
-                max="100">
-                <!-- opera et chrome... FF 34 ne fait rien -->
-  		</div>
-  		<div>
-  			<input	type="submit" value="Envoyez le volume de son souhaité">
-  		</div>
-  	</form><!-- #form19 -->
+  <body>
+    <h1>19. Intervalle</h1>
+    <form action="#" id="form19" method="get">
+      <div>
+        <label for="volume"> Réglez le volume du son : </label>
+        <input id="volume" max="100" min="0" name="volume" type="range" />
+        <!-- opera et chrome... FF 34 ne fait rien -->
+      </div>
+      <div>
+        <input type="submit" value="Envoyez le volume de son souhaité" />
+      </div>
+    </form>
+    <!-- #form19 -->
   </body>
 </html>

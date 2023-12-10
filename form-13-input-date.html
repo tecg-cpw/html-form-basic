@@ -1,37 +1,35 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form13
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form13</title>
+    <meta content="Myriam Dupont" name="author" />
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
   </head>
-  <body> 
-    <h1 role="heading" aria-level="1">
-        13. Date
-    </h1>  
-  	<form	id="form13"
-    			action="#" 
-    			method="get">
-  		<div>
-  			<label for="birthday">
-          Entrez votre date de naissance :
-        </label>
-  			<input	type="date"
-      					id="birthday"
-      					name="birthday" 
-      					placeholder="1994-11-01"
-      					title="Veuillez entrer votre date de naissance">
-                <!-- opera et chrome fournissent un date picker et formattent la date au format local (ici, jj/mm/aaaa) => ils enlèvent le placeholder devenu inutile. FF 34 ne fait rien -->
-  		</div>
-  		<div>
-  			<input	type="submit" value="Envoyez votre date de naissance">
-  		</div>
-  	</form><!-- #form13 -->
+  <body>
+    <h1>13. Date</h1>
+    <form action="#" id="form13" method="get">
+      <div>
+        <label for="birthday"> Entrez votre date de naissance : </label>
+        <input
+          id="birthday"
+          name="birthday"
+          placeholder="1994-11-01"
+          title="Veuillez entrer votre date de naissance"
+          type="date"
+        />
+        <!-- opera et chrome fournissent un date picker et formattent la date au format local (ici, jj/mm/aaaa) => ils enlèvent le placeholder devenu inutile. FF 34 ne fait rien -->
+      </div>
+      <div>
+        <input type="submit" value="Envoyez votre date de naissance" />
+      </div>
+    </form>
+    <!-- #form13 -->
   </body>
 </html>

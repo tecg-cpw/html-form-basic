@@ -1,37 +1,35 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form18a
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form18a</title>
+    <meta content="Myriam Dupont" name="author" />
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
   </head>
-  <body> 
-    <h1 role="heading" aria-level="1">
-        18a. Nombre
-    </h1>  
-  	<form	id="form18a"
-    			action="#" 
-    			method="get">
-  		<div>
-  			<label for="age">
-          Entrez votre âge :
-        </label>
-  			<input	type="number"
-      					id="age"
-      					name="age" 
-      					placeholder="21"
-      					title="Veuillez entrer votre âge">
-                <!-- opera et chrome fournissent un date picker et formattent la date au format local (ici, 13:00) => ils enlèvent le placeholder devenu inutile. FF 34 ne fait rien -->
-  		</div>
-  		<div>
-  			<input	type="submit" value="Envoyez votre âge">
-  		</div>
-  	</form><!-- #form18a -->
+  <body>
+    <h1>18a. Nombre</h1>
+    <form action="#" id="form18a" method="get">
+      <div>
+        <label for="age"> Entrez votre âge : </label>
+        <input
+          id="age"
+          name="age"
+          placeholder="21"
+          title="Veuillez entrer votre âge"
+          type="number"
+        />
+        <!-- opera et chrome fournissent un date picker et formattent la date au format local (ici, 13:00) => ils enlèvent le placeholder devenu inutile. FF 34 ne fait rien -->
+      </div>
+      <div>
+        <input type="submit" value="Envoyez votre âge" />
+      </div>
+    </form>
+    <!-- #form18a -->
   </body>
 </html>

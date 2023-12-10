@@ -1,59 +1,53 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form6b 
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form6b</title>
+    <meta content="Myriam Dupont" name="author" />
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
   </head>
-  <body>   
-    <h1 role="heading" aria-level="1">
-        6a. Boutons radio&nbsp;— un bouton précoché (attribut <code>checked</code>)
+  <body>
+    <h1>
+      6a. Boutons radio&nbsp;— un bouton précoché (attribut
+      <code>checked</code>)
     </h1>
-	<form	id="form6b"
-			action="#"
-			method="get">
-		<ul>
-			<li>
-				<input 	type="radio" 
-						id="civiliteMr" 
-						name="civilite" 
-						value="Mr">
-				<label	for="civiliteMr"
-						title="Cliquez ce bouton si vous êtes un homme">
-					Monsieur
-				</label>
-			</li>
-			<li>
-				<input	type="radio"
-						id="civiliteMme"
-						name="civilite"
-						value="Mme" 
-						checked>
-				<label	
-						title="Cliquez ce bouton si vous êtes une femme">
-					Madame
-				</label>
-			</li>
-			<li>
-				<input	type="radio"
-						id="civiliteMlle"
-						name="civilite"
-						value="Mlle">
-				<label	
-						title="Cliquez ce bouton si vous êtes une demoiselle">
-					Mademoiselle
-				</label>
-			</li>
-		</ul>
-		<div>
-			<input	type="submit" value="Communiquez votre état civil">
-		</div>
-	</form><!-- #form6b -->
+    <form action="#" id="form6b" method="get">
+      <ul>
+        <li>
+          <input id="title-mr" name="title" type="radio" value="mr" />
+          <label for="title-mr" title="Cliquez ce bouton si vous êtes un homme">
+            Monsieur
+          </label>
+        </li>
+        <li>
+          <input checked id="title-mrs" name="title" type="radio" value="mrs" />
+          <label
+            for="title-mrs"
+            title="Cliquez ce bouton si vous êtes une femme"
+          >
+            Madame
+          </label>
+        </li>
+        <li>
+          <input id="title-ms" name="title" type="radio" value="ms" />
+          <label
+            for="title-ms"
+            title="Cliquez ce bouton si vous êtes une demoiselle"
+          >
+            Mademoiselle
+          </label>
+        </li>
+      </ul>
+      <div>
+        <input type="submit" value="Communiquez votre état civil" />
+      </div>
+    </form>
+    <!-- #form6b -->
   </body>
 </html>

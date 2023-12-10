@@ -1,38 +1,38 @@
 <!doctype html>
 <html lang="fr-BE">
-	<head>
-	    <meta charset="UTF-8">
-	    <title>
-	      Form21c 
-	    </title>
-	    <meta name="author" content="Myriam Dupont">
-	    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-	    <!--[if lt IE 9]>
-	      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	    <![endif]-->
-	</head>
-	<body>  
-	    <h1 role="heading" aria-level="1">
-	        21c. Liste déroulante - options regroupées dans un optgroup
-	    </h1>  
-		<form	id="form21c" 
-				action="#"
-				method="get">
-			<div>
-				<select name="pays">
-				  <optgroup label="Europe">
-				    <option value="fr" selected>France</option> <!-- selected -->
-					<option value="be">Belgique</option>
-				    <option value="it">Italie</option>
-				  </optgroup>
-				  <optgroup label="Asie">
-				    <option value="ch">Chine</option>
-				  </optgroup>
-				</select>
-			</div>
-			<div>
-				<input	type="submit" value="Choisissez votre pays">
-			</div>
-		</form><!-- #form21c -->
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form21c</title>
+    <meta content="Myriam Dupont" name="author" />
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <h1>21c. Liste déroulante - options regroupées dans un optgroup</h1>
+    <form action="#" id="form21c" method="get">
+      <div>
+        <label for="country">Choisissez un pays</label>
+        <select id="country" name="country">
+          <optgroup label="Europe">
+            <option selected value="fr">France</option>
+            <!-- selected -->
+            <option value="be">Belgique</option>
+            <option value="it">Italie</option>
+          </optgroup>
+          <optgroup label="Asie">
+            <option value="ch">Chine</option>
+          </optgroup>
+        </select>
+      </div>
+      <div>
+        <input type="submit" value="Choisissez votre pays" />
+      </div>
+    </form>
+    <!-- #form21c -->
+  </body>
 </html>

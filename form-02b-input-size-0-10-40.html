@@ -1,60 +1,61 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form2b
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form2b</title>
+    <meta content="Myriam Dupont" name="author" />
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
   </head>
   <body>
-    <h1 role="heading" aria-level="1">
-        2b. Champ de saisie texte et attribut size
-    </h1>
-	<!-- CHAMP TEXTE - sans attribut size-->
-	<form id="form2b1" action="#" method="get">
-		<h2 role="heading" aria-level="2">Sans attribut size</h2>
-		<div>
-			<input	type="text"
-					name="nom" 
-					title="Veuillez saisir votre nom">
-		</div>
-		<div>
-			<input	type="submit" value="Envoyez votre nom">
-		</div>
-	</form><!-- #form2b1-->
-	<!-- CHAMP TEXTE - avec attribut size à 10 -->
-	<form id="form2b2" action="#" method="get">
-		<h2 role="heading" aria-level="2">Avec attribut size="10"</h2>
-		<div>
-			<input	type="text"
-					name="nom" 
-					title="Veuillez saisir votre nom"
-					size="10">
-		</div>
-		<div>
-			<input	type="submit" value="Envoyez votre nom">
-		</div>
-
-	</form><!-- #form2b2 -->
-	<!-- CHAMP TEXTE - avec attribut size à 40 -->
-	<form	id="form2b3"
-			action="#"
-			method="get">
-		<h2 role="heading" aria-level="2">Avec attribut size="40"</h2>
-		<div>
-			<input	type="text"
-					name="nom" 
-					title="Veuillez saisir votre nom"
-					size="40">
-		</div>
-		<div>
-			<input	type="submit" value="Envoyez votre nom">
-		</div>
-	</form><!-- #form2b3 -->
+    <h1>2b. Champ de saisie texte et attribut size</h1>
+    <!-- CHAMP TEXTE - sans attribut size-->
+    <form action="#" id="form2b1" method="get">
+      <h2>Sans attribut size</h2>
+      <div>
+        <input name="name" title="Veuillez saisir votre nom" type="text" />
+      </div>
+      <div>
+        <input type="submit" value="Envoyez votre nom" />
+      </div>
+    </form>
+    <!-- #form2b1-->
+    <!-- CHAMP TEXTE - avec attribut size à 10 -->
+    <form action="#" id="form2b2" method="get">
+      <h2>Avec attribut size="10"</h2>
+      <div>
+        <input
+          name="name"
+          size="10"
+          title="Veuillez saisir votre nom"
+          type="text"
+        />
+      </div>
+      <div>
+        <input type="submit" value="Envoyez votre nom" />
+      </div>
+    </form>
+    <!-- #form2b2 -->
+    <!-- CHAMP TEXTE - avec attribut size à 40 -->
+    <form action="#" id="form2b3" method="get">
+      <h2>Avec attribut size="40"</h2>
+      <div>
+        <input
+          name="name"
+          size="40"
+          title="Veuillez saisir votre nom"
+          type="text"
+        />
+      </div>
+      <div>
+        <input type="submit" value="Envoyez votre nom" />
+      </div>
+    </form>
+    <!-- #form2b3 -->
   </body>
 </html>

@@ -1,35 +1,30 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form01b 
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form01b</title>
+    <meta content="Myriam Dupont" name="author" />
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
   </head>
   <body>
-    <h1 role="heading" aria-level="1">
-      1. Un bouton de soumission
-    </h1> 
+    <h1>1. Un bouton de soumission</h1>
     <section>
-      <h2 role="heading" aria-level="2">
-        b) avec <code>&lt;button&gt;</code>
-      </h2>
-      <form  id="form1b" 
-             action="#" 
-             method="get">
+      <h2>b) avec <code>&lt;button&gt;</code></h2>
+      <form action="#" id="form1b" method="get">
         <div>
-          <button type="submit"
-                  id="boutonEnvoi"
-                  value="boutonEnvoi"> <!-- value est required -->
+          <button id="send-btn" type="submit" value="send-btn">
+            <!-- value est required -->
             Envoyer le formulaire
           </button>
         </div>
-      </form><!-- #form1b -->
+      </form>
+      <!-- #form1b -->
     </section>
   </body>
 </html>

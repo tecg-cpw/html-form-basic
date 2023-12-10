@@ -1,37 +1,35 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form14
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form14</title>
+    <meta content="Myriam Dupont" name="author" />
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
   </head>
-  <body> 
-    <h1 role="heading" aria-level="1">
-        14. Heure
-    </h1>  
-  	<form	id="form14"
-    			action="#" 
-    			method="get">
-  		<div>
-  			<label for="heureRV">
-          Entrez votre date de naissance :
-        </label>
-  			<input	type="time"
-      					id="heureRV"
-      					name="heureRV" 
-      					placeholder="13:30:00"
-      					title="Veuillez entrer l’heure de votre rendez-vous en respectant le format">
-                <!-- opera et chrome fournissent un date picker et formattent la date au format local (ici, 13:00) => ils enlèvent le placeholder devenu inutile. FF 34 ne fait rien -->
-  		</div>
-  		<div>
-  			<input	type="submit" value="Envoyez l’heure de votre rendez-vous">
-  		</div>
-  	</form><!-- #form14 -->
+  <body>
+    <h1>14. Heure</h1>
+    <form action="#" id="form14" method="get">
+      <div>
+        <label for="time"> Entrez votre date de naissance : </label>
+        <input
+          id="time"
+          name="time"
+          placeholder="13:30:00"
+          title="Veuillez entrer l’heure de votre rendez-vous en respectant le format"
+          type="time"
+        />
+        <!-- opera et chrome fournissent un date picker et formattent la date au format local (ici, 13:00) => ils enlèvent le placeholder devenu inutile. FF 34 ne fait rien -->
+      </div>
+      <div>
+        <input type="submit" value="Envoyez l’heure de votre rendez-vous" />
+      </div>
+    </form>
+    <!-- #form14 -->
   </body>
 </html>

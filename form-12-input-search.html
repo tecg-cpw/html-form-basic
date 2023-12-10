@@ -1,34 +1,34 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form12
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form12</title>
+    <meta content="Myriam Dupont" name="author" />
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
   </head>
-  <body> 
-    <h1 role="heading" aria-level="1">
-        12. Champ de recherche
-    </h1>  
-  	<form	id="form12"
-  			action="#" 
-  			method="get">
-  		<div>
-  			<!--  cas particulier où le label n'est pas indispensable (moins utile, le bouton avec une value rechercher suffit à comprendre la fonction du champ) -->
-  			<input	type="search"
-  					id="recherche"
-  					name="recherche" 
-  					placeholder="Que recherchez-vous&nbsp;?"
-  					title="Entrez les mots-clés correspondant à votre recherche">
-  		</div>
-  		<div>
-  			<input	type="submit" value="Rechercher">
-  		</div>
-  	</form><!-- #form12 -->
+  <body>
+    <h1>12. Champ de recherche</h1>
+    <form action="#" id="form12" method="get">
+      <div>
+        <!--  cas particulier où le label n'est pas indispensable (moins utile, le bouton avec une value rechercher suffit à comprendre la fonction du champ) -->
+        <input
+          id="search-term"
+          name="search"
+          placeholder="Que recherchez-vous&nbsp;?"
+          title="Entrez les mots-clés correspondant à votre recherche"
+          type="search"
+        />
+      </div>
+      <div>
+        <input type="submit" value="Rechercher" />
+      </div>
+    </form>
+    <!-- #form12 -->
   </body>
 </html>

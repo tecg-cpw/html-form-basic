@@ -1,41 +1,39 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form3a
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form3a</title>
+    <meta content="Myriam Dupont" name="author" />
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
   </head>
   <body>
-    <h1 role="heading" aria-level="1">
-        3a. Champ de saisie texte avec label
-    </h1>
+    <h1>3a. Champ de saisie texte avec label</h1>
     <section>
-      <h2 role="heading" aria-level="2">
-          1°) Sans attribut for (à ne pas faire&nbsp;!)
-      </h2>
-    	<!-- LABEL POUR CHAMP TEXTE - sans attribut for !! -->  
-    	<form	id="form3a"
-    			action="#"> <!-- method="get" -->
-    		<div>
-    			<label  title="Veuillez saisir votre nom">
-    				Nom : 
-    			</label>
-    			<input type="text"
-    					   id="nom" 
-    					   name="nom" 
-                 value="Dupont"
-    					   title="Veuillez saisir votre nom">
-    		</div>
-    		<div>
-    			<input	type="submit" value="Envoyez votre nom">
-    		</div>
-    	</form><!-- #form3a -->
+      <h2>1°) Sans attribut for (à ne pas faire&nbsp;!)</h2>
+      <!-- LABEL POUR CHAMP TEXTE - sans attribut for !! -->
+      <form action="#" id="form3a">
+        <!-- method="get" -->
+        <div>
+          <label title="Veuillez saisir votre nom"> Nom : </label>
+          <input
+            id="name"
+            name="name"
+            title="Veuillez saisir votre nom"
+            type="text"
+            value="Dupont"
+          />
+        </div>
+        <div>
+          <input type="submit" value="Envoyez votre nom" />
+        </div>
+      </form>
+      <!-- #form3a -->
     </section>
   </body>
 </html>

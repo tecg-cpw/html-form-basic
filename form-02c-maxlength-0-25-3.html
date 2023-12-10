@@ -1,59 +1,61 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form2c
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form2c</title>
+    <meta content="Myriam Dupont" name="author" />
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
   </head>
   <body>
-    <h1 role="heading" aria-level="1">
-        2c. Champ de saisie texte et attribut maxlength
-    </h1>
-	<!-- CHAMP TEXTE - sans attribut  maxlength -->
-	<form id="form2c1" action="#" method="get">
-		<h2 role="heading" aria-level="2">Sans attribut maxlength</h2>
-		<div>
-			<input	type="text"
-					name="nom" 
-					title="Veuillez saisir votre nom">
-		</div>
-		<div>
-			<input	type="submit" value="Envoyez votre nom">
-		</div>
-	</form><!-- #form2c1-->
-	<!-- CHAMP TEXTE - Attribut  maxlength à 25 -->
-	<form	id="form2c2" 
-			action="#" 
-			method="get">
-		<h2 role="heading" aria-level="2">Avec attribut maxlength="25"</h2>
-		<div>
-			<input	type="text"
-					name="nom" 
-					title="Veuillez saisir votre nom"
-					maxlength="25">
-		</div>
-		<div>
-			<input	type="submit" value="Envoyez votre nom">
-		</div>
-	</form><!-- #form2c2 -->
-	<!-- CHAMP TEXTE - Attribut maxlength -->
-	<form id="form2c3" action="#" method="get">
-		<h2 role="heading" aria-level="2">Avec attribut maxlength="3"</h2>
-		<div>
-			<input	type="text"
-					name="nom" 
-					title="Veuillez saisir votre nom"
-					maxlength="3">
-		</div>
-		<div>
-			<input	type="submit" value="Envoyez votre nom">
-		</div>
-	</form><!-- #form2c3 -->
+    <h1>2c. Champ de saisie texte et attribut maxlength</h1>
+    <!-- CHAMP TEXTE - sans attribut  maxlength -->
+    <form action="#" id="form2c1" method="get">
+      <h2>Sans attribut maxlength</h2>
+      <div>
+        <input name="name" title="Veuillez saisir votre nom" type="text" />
+      </div>
+      <div>
+        <input type="submit" value="Envoyez votre nom" />
+      </div>
+    </form>
+    <!-- #form2c1-->
+    <!-- CHAMP TEXTE - Attribut  maxlength à 25 -->
+    <form action="#" id="form2c2" method="get">
+      <h2>Avec attribut maxlength="25"</h2>
+      <div>
+        <input
+          maxlength="25"
+          name="name"
+          title="Veuillez saisir votre nom"
+          type="text"
+        />
+      </div>
+      <div>
+        <input type="submit" value="Envoyez votre nom" />
+      </div>
+    </form>
+    <!-- #form2c2 -->
+    <!-- CHAMP TEXTE - Attribut maxlength -->
+    <form action="#" id="form2c3" method="get">
+      <h2>Avec attribut maxlength="3"</h2>
+      <div>
+        <input
+          maxlength="3"
+          name="name"
+          title="Veuillez saisir votre nom"
+          type="text"
+        />
+      </div>
+      <div>
+        <input type="submit" value="Envoyez votre nom" />
+      </div>
+    </form>
+    <!-- #form2c3 -->
   </body>
 </html>

@@ -1,38 +1,37 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form2a
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <meta name="keywords" content="formulaire, imput de type texte">
-    <meta name="description" content="Un petit exercice de base sur les formulaires">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form2a</title>
+    <meta content="Myriam Dupont" name="author" />
+    <meta content="formulaire, imput de type texte" name="keywords" />
+    <meta
+      content="Un petit exercice de base sur les formulaires"
+      name="description"
+    />
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
   </head>
   <body>
-    <h1 role="heading" aria-level="1">
-        2a. Un champ de saisie texte sans label
-    </h1>
-    <p>
-    	À ne pas faire&nbsp;!!
-    </p>
-    <form	id="form2a" 
-  			  action="#" 
-          method="get">
-  		<div>
-  			<input	type="text"
-                name="prenom"> <!-- l’attribut name sert à donner le nom du paramètre dans la query string pour envoyer la donnée !!! si on ne le met pas, l’input ne sert à rien, il n’enverra aucune donnée !! -->
-                <!-- id="nom"
+    <h1>2a. Un champ de saisie texte sans label</h1>
+    <p>À ne pas faire&nbsp;!!</p>
+    <form action="#" id="form2a" method="get">
+      <div>
+        <input name="firstname" type="text" />
+        <!-- l’attribut name sert à donner le nom du paramètre dans la query string pour envoyer la donnée !!! si on ne le met pas, l’input ne sert à rien, il n’enverra aucune donnée !! -->
+        <!-- id="nom"
                 value="Entrez votre nom" 
                 title="Veuillez saisir votre nom" -->
-  		</div>
-  		<div>
-  			<input	type="submit" value="Envoyez votre nom">
-  		</div>
-  	</form><!-- form2a-->
+      </div>
+      <div>
+        <input type="submit" value="Envoyez votre nom" />
+      </div>
+    </form>
+    <!-- form2a-->
   </body>
 </html>

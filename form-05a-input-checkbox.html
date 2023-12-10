@@ -1,49 +1,55 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form5a
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form5a</title>
+    <meta content="Myriam Dupont" name="author" />
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
   </head>
-  <body>   
-    <h1 role="heading" aria-level="1">
-        5a. Cases à cocher («&nbsp;checkbox&nbsp;»)
-    </h1>
+  <body>
+    <h1>5a. Cases à cocher («&nbsp;checkbox&nbsp;»)</h1>
     <!-- NB. Ici, l’attribut for sur le label est encre plus important ! -->
-	<form	id="form5a"
-			action="#" 
-			method="get">
-		<div>
-			<input	type="checkbox"
-					id="condgen" 
-					name="condgen" 
-					value="oui"
-					title="Vous marquez votre accord avec les conditions générales">
-			<label	for="condgen"
-					title="Vous marquez votre accord avec les conditions générales">
-				J’accepte les conditions générales du service
-			</label>
-		</div>
-		<div>
-			<input	type="checkbox" 
-					id="spam" 
-					name="spam" 
-					value="1"
-					title="Vous marquez votre accord pour que la société communique vos coordonnées à des tiers">
-			<label	for="spam"
-					title="Vous marquez votre accord pour que la société communique vos coordonnées à des tiers">
-				J’autorise l’utilisation de mes coordonnées par la société
-			</label>
-		</div>
-		<div>
-			<input	type="submit" value="Communiquez votre choix">
-		</div>
-	</form><!-- #form5a -->
+    <form action="#" id="form5a" method="get">
+      <div>
+        <input
+          id="terms"
+          name="terms"
+          title="Vous marquez votre accord avec les conditions générales"
+          type="checkbox"
+          value="oui"
+        />
+        <label
+          for="terms"
+          title="Vous marquez votre accord avec les conditions générales"
+        >
+          J’accepte les conditions générales du service
+        </label>
+      </div>
+      <div>
+        <input
+          id="spam"
+          name="spam"
+          title="Vous marquez votre accord pour que la société communique vos coordonnées à des tiers"
+          type="checkbox"
+          value="1"
+        />
+        <label
+          for="spam"
+          title="Vous marquez votre accord pour que la société communique vos coordonnées à des tiers"
+        >
+          J’autorise l’utilisation de mes coordonnées par la société
+        </label>
+      </div>
+      <div>
+        <input type="submit" value="Communiquez votre choix" />
+      </div>
+    </form>
+    <!-- #form5a -->
   </body>
 </html>

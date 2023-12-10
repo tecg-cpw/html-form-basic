@@ -1,58 +1,50 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form6a
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form6a</title>
+    <meta content="Myriam Dupont" name="author" />
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
   </head>
-  <body> 
-    <h1 role="heading" aria-level="1">
-        6a. Boutons radio
-    </h1>  
-	<form	id="form6a"
-			action="#"
-			method="get">
-		<ul>
-			<li>
-				<input 	type="radio" 
-						id="civiliteH" 
-						name="civilite" 
-						value="H">
-				<label	for="civiliteH"
-						title="Cliquez ce bouton si vous êtes un homme">
-					Monsieur
-				</label>
-			</li>
-			<li>
-				<input	type="radio"
-						id="civiliteF"
-						name="civilite"
-						value="F">
-				<label	for="civiliteF"
-						title="Cliquez ce bouton si vous êtes une femme">
-					Madame
-				</label>
-			</li>
-			<li>
-				<input	type="radio"
-						id="civiliteMlle"
-						name="civilite"
-						value="Mlle">
-				<label	for="civiliteMlle"
-						title="Cliquez ce bouton si vous êtes une demoiselle">
-					Mademoiselle
-				</label>
-			</li>
-		</ul>
-		<div>
-			<input	type="submit" value="Communiquez votre état civil">
-		</div>
-	</form><!-- #form6a -->
+  <body>
+    <h1>6a. Boutons radio</h1>
+    <form action="#" id="form6a" method="get">
+      <ul>
+        <li>
+          <input id="title-mr" name="title" type="radio" value="mr" />
+          <label for="title-mr" title="Cliquez ce bouton si vous êtes un homme">
+            Monsieur
+          </label>
+        </li>
+        <li>
+          <input id="title-mrs" name="title" type="radio" value="mrs" />
+          <label
+            for="title-mrs"
+            title="Cliquez ce bouton si vous êtes une femme"
+          >
+            Madame
+          </label>
+        </li>
+        <li>
+          <input id="title-ms" name="title" type="radio" value="ms" />
+          <label
+            for="title-ms"
+            title="Cliquez ce bouton si vous êtes une demoiselle"
+          >
+            Mademoiselle
+          </label>
+        </li>
+      </ul>
+      <div>
+        <input type="submit" value="Communiquez votre état civil" />
+      </div>
+    </form>
+    <!-- #form6a -->
   </body>
 </html>

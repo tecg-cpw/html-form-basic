@@ -1,39 +1,44 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form3f
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form3f</title>
+    <meta content="Myriam Dupont" name="author" />
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
   </head>
   <body>
-    <h1 role="heading" aria-level="1">
-        3f. Champ de saisie texte avec une datalist&nbsp;: des suggestions de choix
+    <h1>
+      3f. Champ de saisie texte avec une datalist&nbsp;: des suggestions de
+      choix
     </h1>
     <p>
-      <code>&lt;datalist&gt;</code> permet de lier une liste de choix à un élément input. <br>
-      Il fournit des fonctionnalités d’auto-complétion ou d’auto-suggestion, dans un formulaire classique ou un champ de recherche, voire à d’autres éléments d’entrée, tels que les nouveaux input de type range.
+      <code>&lt;datalist&gt;</code> permet de lier une liste de choix à un
+      élément input.
     </p>
-    <!-- LABEL POUR CHAMP TEXTE - avec attribut for -->  
-    <form   id="form3f"
-            action="#" 
-            method="get">
+    <p>
+      Il fournit des fonctionnalités d’auto-complétion ou d’auto-suggestion,
+      dans un formulaire classique ou un champ de recherche, voire à d’autres
+      éléments d’entrée, tels que les nouveaux input de type range.
+    </p>
+    <!-- LABEL POUR CHAMP TEXTE - avec attribut for -->
+    <form action="#" id="form3f" method="get">
       <div>
-        <label  for="etud">
-            Rechercher un étudiant 
-        </label>
-        <input  type="search"
-                id="etud" 
-                name="etud" 
-                list="etudiants"
-                placeholder="Jon Snow"
-                title="Entrez le nom de l’étudiant que vous recherchez">
-        <datalist id="etudiants">
+        <label for="student-name"> Rechercher un étudiant </label>
+        <input
+          id="student-name"
+          list="students"
+          name="student-name"
+          placeholder="Jon Snow"
+          title="Entrez le nom de l’étudiant que vous recherchez"
+          type="search"
+        />
+        <datalist id="students">
           <option value="Malaise Maxime"></option>
           <option value="Lousberg Nathan"></option>
           <option value="Guillaume Grillo"></option>
@@ -51,8 +56,9 @@
         </datalist>
       </div>
       <div>
-        <input  type="submit" value="Rechercher">
+        <input type="submit" value="Rechercher" />
       </div>
-    </form><!-- #form3f -->
+    </form>
+    <!-- #form3f -->
   </body>
 </html>

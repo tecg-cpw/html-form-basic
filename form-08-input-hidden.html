@@ -1,41 +1,36 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form8
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form8</title>
+    <meta content="Myriam Dupont" name="author" />
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
   </head>
-  <body> 
-    <h1 role="heading" aria-level="1">
-        8. Champ caché (input de type "hidden")
-    </h1>   
-  	<form	id="form8"
-    			action="#"
-    			method="get">
+  <body>
+    <h1>8. Champ caché (input de type "hidden")</h1>
+    <form action="#" id="form8" method="get">
       <h2>
         Pour envoyer des données cachées (l'utilisateur ne voit pas le champ)
       </h2>
-  		<div>
-  			<label	for="commentaire"
-                title="Veuillez taper votre commentaire">
-  				Commentaire :
-  			</label>
-  			<textarea	id="commentaire"
-      						name="commentaire"
-      						cols="40"
-      						rows="3">Tapez ici votre commentaire
+      <div>
+        <label for="commentaire" title="Veuillez taper votre commentaire">
+          Commentaire :
+        </label>
+        <textarea cols="40" id="commentaire" name="commentaire" rows="3">
+Tapez ici votre commentaire
         </textarea>
-        <input type="hidden" name="id_article" value="a12">
-  		</div>
-  		<div>
-  			<input	type="submit" value="Postez votre commentaire">
-  		</div>
-  	</form><!-- #form9 -->
+        <input name="article_id" type="hidden" value="12" />
+      </div>
+      <div>
+        <input type="submit" value="Postez votre commentaire" />
+      </div>
+    </form>
+    <!-- #form9 -->
   </body>
 </html>

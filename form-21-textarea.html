@@ -1,56 +1,50 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form21
-    </title>
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form21</title>
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
   </head>
-  <body> 
-    <h1 role="heading" aria-level="1">
-        21. Zone de texte longue ("textarea")
-    </h1>   
-	<form	id="form21a"
-			action="#"
-			method="get">
-        <h2>Attention au formatage !</h2>
-		<div>
-			<label for="commentaire1"></label>
-			<textarea	id="commentaire1"
-						name="commentaire"
-						cols="55"
-						rows="6">
+  <body>
+    <h1>21. Zone de texte longue ("textarea")</h1>
+    <form action="#" id="form21a" method="get">
+      <h2>Attention au formatage !</h2>
+      <div>
+        <label for="commentaire1"></label>
+        <textarea cols="55" id="commentaire1" name="commentaire" rows="6">
                     Le contenu de la balise textarea est ce qui sera affiché par défaut;
-                                le formatage est similaire   à celui
+                                le formatage est similaire à celui
                         d'un élément pre
-			</textarea> <!-- attributs cols et rows obligatoires pour définir les dimensions de la zone --> 
-	   </div>
-		<div>
-			<input	type="submit" value="Postez votre commentaire">
-		</div>
-	</form><!-- #form21a -->
-	<form	id="form21b"
-			action="#"
-			method="get">
-        <h2>On n'indente pas le contenu d'un textarea...</h2>
-		<div>
-			<label	for="commentaire"
-					title="Veuillez taper votre commentaire">
-				Commentaire :
-			</label>
-			<textarea	id="commentaire"
-						name="commentaire"
-						cols="40"
-						rows="3">Tapez ici votre commentaire
-            </textarea>
-		</div>
-		<div>
-			<input	type="submit" value="Postez votre commentaire">
-		</div>
-	</form><!-- #form21b -->
+			</textarea
+        >
+        <!-- attributs cols et rows obligatoires pour définir les dimensions de la zone -->
+      </div>
+      <div>
+        <input type="submit" value="Postez votre commentaire" />
+      </div>
+    </form>
+    <!-- #form21a -->
+    <form action="#" id="form21b" method="get">
+      <h2>On n'indente pas le contenu d'un textarea...</h2>
+      <div>
+        <label for="comment" title="Veuillez taper votre commentaire">
+          Commentaire :
+        </label>
+        <textarea cols="40" id="comment" name="comment" rows="3">
+                          Tapez ici votre commentaire
+            </textarea
+        >
+      </div>
+      <div>
+        <input type="submit" value="Postez votre commentaire" />
+      </div>
+    </form>
+    <!-- #form21b -->
   </body>
 </html>

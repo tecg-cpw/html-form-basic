@@ -1,37 +1,36 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form9b
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form9b</title>
+    <meta content="Myriam Dupont" name="author" />
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
   </head>
-  <body> 
-    <h1 role="heading" aria-level="1">
-        9. Numéro de téléphone avec vérification de pattern
-    </h1>  
-  	<form	id="form9b"
-    			action="#" 
-    			method="get">
-  		<div>
-  			<label for="phone">
-          Entrez votre numéro de téléphone :
-        </label>
-  			<input	type="tel"
-        				id="phone"
-        				name="phone" 
-        				placeholder="04 330 75 04"
-                pattern="\d+\s\d+\s\d+\s\d+" 
-        				title="Veuillez entrer votre numéro de téléphone"> <!-- au moins un chiffre suivi d'un espace suivi de au moins un chiffre etc. -->
-  		</div>
-  		<div>
-  			<input	type="submit" value="Envoyez votre numéro de téléphone">
-  		</div>
-  	</form><!-- #form9b -->
+  <body>
+    <h1>9. Numéro de téléphone avec vérification de pattern</h1>
+    <form action="#" id="form9b" method="get">
+      <div>
+        <label for="phone"> Entrez votre numéro de téléphone : </label>
+        <input
+          id="phone"
+          name="phone"
+          pattern="\d+\s\d+\s\d+\s\d+"
+          placeholder="04 330 75 04"
+          title="Veuillez entrer votre numéro de téléphone"
+          type="tel"
+        />
+        <!-- au moins un chiffre suivi d'un espace suivi de au moins un chiffre etc. -->
+      </div>
+      <div>
+        <input type="submit" value="Envoyez votre numéro de téléphone" />
+      </div>
+    </form>
+    <!-- #form9b -->
   </body>
 </html>

@@ -1,76 +1,72 @@
 <!doctype html>
 <html lang="fr-BE">
   <head>
-    <meta charset="UTF-8">
-    <title>
-      Form3e
-    </title>
-    <meta name="author" content="Myriam Dupont">
-    <link rel="stylesheet" type="text/css" href ="./form.css" media="screen" title="Normal">
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8" />
+    <title>Form3e</title>
+    <meta content="Myriam Dupont" name="author" />
+    <link
+      href="./css/form.css"
+      media="screen"
+      rel="stylesheet"
+      title="Normal"
+      type="text/css"
+    />
   </head>
   <body>
-    <h1 role="heading" aria-level="1">
-        3e. Champ de saisie texte et attribut <code>required</code> 
-    </h1>
+    <h1>3e. Champ de saisie texte et attribut <code>required</code></h1>
     <section>
-      <h2 role="heading" aria-level="2">
-        1°) Sans attribut <code>required</code>
-      </h2>
+      <h2>1°) Sans attribut <code>required</code></h2>
       <p>
-        On peut envoyer le formulaire sans compléter le champ, il n’y aura pas de mesage d’erreur.
+        On peut envoyer le formulaire sans compléter le champ, il n’y aura pas
+        de mesage d’erreur.
       </p>
-          <!-- LABEL POUR CHAMP TEXTE - avec attribut for -->  
-      <form   id="form3e1"
-              action="#" 
-              method="get">
+      <!-- LABEL POUR CHAMP TEXTE - avec attribut for -->
+      <form action="#" id="form3e1" method="get">
         <div>
-          <label  title="Veuillez saisir votre prénom"
-                  for="prenom">
-              Prénom : 
+          <label for="first-name" title="Veuillez saisir votre prénom">
+            Prénom :
           </label>
-          <input  type="text"
-                  id="prenom" 
-                  name="prenom" 
-                  value=""
-                  placeholder="Myriam"
-                  title="Veuillez saisir votre prénom">
+          <input
+            id="first-name"
+            name="firstname"
+            placeholder="Myriam"
+            title="Veuillez saisir votre prénom"
+            type="text"
+          />
         </div>
         <div>
-          <input  type="submit" value="Envoyez votre prénom">
+          <input type="submit" value="Envoyez votre prénom" />
         </div>
-      </form><!-- #form3e1 -->
+      </form>
+      <!-- #form3e1 -->
     </section>
     <section>
-      <h2 role="heading" aria-level="2">
-        2°) Avec attribut <code>required</code>
-      </h2>
+      <h2>2°) Avec attribut <code>required</code></h2>
       <p>
-        L’attribut <code>required</code> permet de rendre obligatoire le remplissage d’un champ et bloquer la validation du formulaire si le champ n’a pas été renseigné&nbsp;: un message d’erreur apparaît.
+        L’attribut <code>required</code> permet de rendre obligatoire le
+        remplissage d’un champ et bloquer la validation du formulaire si le
+        champ n’a pas été renseigné&nbsp;: un message d’erreur apparaît.
       </p>
-        <!-- LABEL POUR CHAMP TEXTE - avec attribut for -->  
-      <form   id="form3e2"
-              action="#" 
-              method="get">
+      <!-- LABEL POUR CHAMP TEXTE - avec attribut for -->
+      <form action="#" id="form3e2" method="get">
         <div>
-          <label  title="Veuillez saisir votre prénom"
-                  for="prenom">
-              Prénom : 
+          <label for="first-name-2" title="Veuillez saisir votre prénom">
+            Prénom :
           </label>
-          <input  type="text"
-                  id="prenom" 
-                  name="prenom" 
-                  value=""
-                  placeholder="Myriam"
-                  title="Veuillez saisir votre prénom"
-                  required>
+          <input
+            id="first-name-2"
+            name="firstname"
+            placeholder="Myriam"
+            required
+            title="Veuillez saisir votre prénom"
+            type="text"
+          />
         </div>
         <div>
-          <input  type="submit" value="Envoyez votre prénom">
+          <input type="submit" value="Envoyez votre prénom" />
         </div>
-      </form><!-- #form3e2 -->
+      </form>
+      <!-- #form3e2 -->
     </section>
   </body>
 </html>
