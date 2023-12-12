@@ -6,7 +6,12 @@ body {
   margin: 2rem auto;
 }
 
-form {
+form:has(> div),
+fieldset:has(> div),
+form > ul,
+form > ol,
+fieldset > ul,
+fieldset > ol {
   margin-bottom: 3rem;
   display: flex;
   flex-direction: column;
@@ -72,4 +77,8 @@ button {
   color: #fff;
   border: none;
   padding: 0.5em;
+}
+
+label:has(+ textarea) {
+  vertical-align: top;
 }
